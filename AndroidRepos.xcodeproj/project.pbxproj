@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB8CF6D27C70DB300308266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CF6C27C70DB300308266 /* AppDelegate.swift */; };
+		EDB8CF6F27C70DB300308266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CF6E27C70DB300308266 /* SceneDelegate.swift */; };
+		EDB8CF7127C70DB300308266 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CF7027C70DB300308266 /* RepositoriesViewController.swift */; };
+		EDB8CF7427C70DB300308266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB8CF7227C70DB300308266 /* Main.storyboard */; };
+		EDB8CF7627C70DB700308266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB8CF7527C70DB700308266 /* Assets.xcassets */; };
+		EDB8CF7927C70DB700308266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB8CF7727C70DB700308266 /* LaunchScreen.storyboard */; };
+		EDB8CF8E27C70DB700308266 /* AndroidReposUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CF8D27C70DB700308266 /* AndroidReposUITests.swift */; };
+		EDB8CF9027C70DB700308266 /* AndroidReposUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CF8F27C70DB700308266 /* AndroidReposUITestsLaunchTests.swift */; };
+		EDB8CFA227C7A56200308266 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFA127C7A56100308266 /* RepositoryTableViewCell.swift */; };
+		EDB8CFA527C7A78A00308266 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFA427C7A78A00308266 /* Constants.swift */; };
+		EDB8CFA927C7AB6D00308266 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFA827C7AB6D00308266 /* WebService.swift */; };
+		EDB8CFAB27C7ABC100308266 /* WebServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFAA27C7ABC100308266 /* WebServiceError.swift */; };
+		EDB8CFAD27C7ACB400308266 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFAC27C7ACB400308266 /* Repository.swift */; };
+		EDB8CFAF27C7C97C00308266 /* RepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFAE27C7C97C00308266 /* RepositoriesViewModel.swift */; };
+		EDB8CFB127C7CF7700308266 /* RepositoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFB027C7CF7700308266 /* RepositoryDetailsViewModel.swift */; };
+		EDB8CFB327C7D17C00308266 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFB227C7D17C00308266 /* UIViewController+Extension.swift */; };
+		EDB8CFB527C7D1BE00308266 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFB427C7D1BE00308266 /* ActivityIndicatorView.swift */; };
+		EDB8CFB927CA8D5800308266 /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFB827CA8D5800308266 /* RepositoryDetailsViewController.swift */; };
+		EDB8CFBC27CADD6500308266 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFBB27CADD6500308266 /* Storyboardable.swift */; };
+		EDB8CFBE27CAEAEA00308266 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFBD27CAEAE900308266 /* ViewModelBased.swift */; };
+		EDB8CFC027CBB15B00308266 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFBF27CBB15A00308266 /* UIImageView+Extension.swift */; };
+		EDB8CFC327CC0B7C00308266 /* WebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFC227CC0B7B00308266 /* WebServiceTests.swift */; };
+		EDB8CFC627CC163100308266 /* MockUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFC527CC163100308266 /* MockUrlProtocol.swift */; };
+		EDB8CFC827CC226B00308266 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFC727CC226B00308266 /* MockWebService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB8CF8027C70DB700308266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB8CF6127C70DB300308266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB8CF6827C70DB300308266;
+			remoteInfo = AndroidRepos;
+		};
+		EDB8CF8A27C70DB700308266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB8CF6127C70DB300308266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB8CF6827C70DB300308266;
+			remoteInfo = AndroidRepos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB8CF6927C70DB300308266 /* AndroidRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB8CF6C27C70DB300308266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB8CF6E27C70DB300308266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDB8CF7027C70DB300308266 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		EDB8CF7327C70DB300308266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB8CF7527C70DB700308266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB8CF7827C70DB700308266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB8CF7A27C70DB700308266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB8CF7F27C70DB700308266 /* AndroidReposTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidReposTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB8CF8927C70DB700308266 /* AndroidReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB8CF8D27C70DB700308266 /* AndroidReposUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidReposUITests.swift; sourceTree = "<group>"; };
+		EDB8CF8F27C70DB700308266 /* AndroidReposUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidReposUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDB8CFA127C7A56100308266 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		EDB8CFA427C7A78A00308266 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDB8CFA827C7AB6D00308266 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		EDB8CFAA27C7ABC100308266 /* WebServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceError.swift; sourceTree = "<group>"; };
+		EDB8CFAC27C7ACB400308266 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		EDB8CFAE27C7C97C00308266 /* RepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModel.swift; sourceTree = "<group>"; };
+		EDB8CFB027C7CF7700308266 /* RepositoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewModel.swift; sourceTree = "<group>"; };
+		EDB8CFB227C7D17C00308266 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EDB8CFB427C7D1BE00308266 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		EDB8CFB827CA8D5800308266 /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
+		EDB8CFBB27CADD6500308266 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		EDB8CFBD27CAEAE900308266 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		EDB8CFBF27CBB15A00308266 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		EDB8CFC227CC0B7B00308266 /* WebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceTests.swift; sourceTree = "<group>"; };
+		EDB8CFC527CC163100308266 /* MockUrlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUrlProtocol.swift; sourceTree = "<group>"; };
+		EDB8CFC727CC226B00308266 /* MockWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB8CF6627C70DB300308266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF7C27C70DB700308266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF8627C70DB700308266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB8CF6027C70DB300308266 = {
+			isa = PBXGroup;
+			children = (
+				EDB8CF6B27C70DB300308266 /* AndroidRepos */,
+				EDB8CF8227C70DB700308266 /* AndroidReposTests */,
+				EDB8CF8C27C70DB700308266 /* AndroidReposUITests */,
+				EDB8CF6A27C70DB300308266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB8CF6A27C70DB300308266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CF6927C70DB300308266 /* AndroidRepos.app */,
+				EDB8CF7F27C70DB700308266 /* AndroidReposTests.xctest */,
+				EDB8CF8927C70DB700308266 /* AndroidReposUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB8CF6B27C70DB300308266 /* AndroidRepos */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFA327C7A77A00308266 /* Constants */,
+				EDB8CF9E27C7103100308266 /* Models */,
+				EDB8CF9F27C7103800308266 /* View Models */,
+				EDB8CF9C27C7100000308266 /* Views */,
+				EDB8CF9D27C7102300308266 /* View Controllers */,
+				EDB8CFA027C7105D00308266 /* Table View Cells */,
+				EDB8CFA627C7AA4200308266 /* Web Services */,
+				EDB8CFBA27CADD4200308266 /* Protocols */,
+				EDB8CFA727C7AA8900308266 /* Extensions */,
+				EDB8CF6C27C70DB300308266 /* AppDelegate.swift */,
+				EDB8CF6E27C70DB300308266 /* SceneDelegate.swift */,
+				EDB8CF7227C70DB300308266 /* Main.storyboard */,
+				EDB8CF7527C70DB700308266 /* Assets.xcassets */,
+				EDB8CF7727C70DB700308266 /* LaunchScreen.storyboard */,
+				EDB8CF7A27C70DB700308266 /* Info.plist */,
+			);
+			path = AndroidRepos;
+			sourceTree = "<group>";
+		};
+		EDB8CF8227C70DB700308266 /* AndroidReposTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFC127CC09CE00308266 /* Web Services */,
+				EDB8CFC427CC15F700308266 /* Mocks */,
+			);
+			path = AndroidReposTests;
+			sourceTree = "<group>";
+		};
+		EDB8CF8C27C70DB700308266 /* AndroidReposUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CF8D27C70DB700308266 /* AndroidReposUITests.swift */,
+				EDB8CF8F27C70DB700308266 /* AndroidReposUITestsLaunchTests.swift */,
+			);
+			path = AndroidReposUITests;
+			sourceTree = "<group>";
+		};
+		EDB8CF9C27C7100000308266 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFB427C7D1BE00308266 /* ActivityIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDB8CF9D27C7102300308266 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CF7027C70DB300308266 /* RepositoriesViewController.swift */,
+				EDB8CFB827CA8D5800308266 /* RepositoryDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EDB8CF9E27C7103100308266 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFAC27C7ACB400308266 /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDB8CF9F27C7103800308266 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFAE27C7C97C00308266 /* RepositoriesViewModel.swift */,
+				EDB8CFB027C7CF7700308266 /* RepositoryDetailsViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		EDB8CFA027C7105D00308266 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFA127C7A56100308266 /* RepositoryTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		EDB8CFA327C7A77A00308266 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFA427C7A78A00308266 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EDB8CFA627C7AA4200308266 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFA827C7AB6D00308266 /* WebService.swift */,
+				EDB8CFAA27C7ABC100308266 /* WebServiceError.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		EDB8CFA727C7AA8900308266 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFB227C7D17C00308266 /* UIViewController+Extension.swift */,
+				EDB8CFBF27CBB15A00308266 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDB8CFBA27CADD4200308266 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFBB27CADD6500308266 /* Storyboardable.swift */,
+				EDB8CFBD27CAEAE900308266 /* ViewModelBased.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EDB8CFC127CC09CE00308266 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFC227CC0B7B00308266 /* WebServiceTests.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		EDB8CFC427CC15F700308266 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8CFC527CC163100308266 /* MockUrlProtocol.swift */,
+				EDB8CFC727CC226B00308266 /* MockWebService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB8CF6827C70DB300308266 /* AndroidRepos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB8CF9327C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidRepos" */;
+			buildPhases = (
+				EDB8CF6527C70DB300308266 /* Sources */,
+				EDB8CF6627C70DB300308266 /* Frameworks */,
+				EDB8CF6727C70DB300308266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidRepos;
+			productName = AndroidRepos;
+			productReference = EDB8CF6927C70DB300308266 /* AndroidRepos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB8CF7E27C70DB700308266 /* AndroidReposTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB8CF9627C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidReposTests" */;
+			buildPhases = (
+				EDB8CF7B27C70DB700308266 /* Sources */,
+				EDB8CF7C27C70DB700308266 /* Frameworks */,
+				EDB8CF7D27C70DB700308266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB8CF8127C70DB700308266 /* PBXTargetDependency */,
+			);
+			name = AndroidReposTests;
+			productName = AndroidReposTests;
+			productReference = EDB8CF7F27C70DB700308266 /* AndroidReposTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDB8CF8827C70DB700308266 /* AndroidReposUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB8CF9927C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidReposUITests" */;
+			buildPhases = (
+				EDB8CF8527C70DB700308266 /* Sources */,
+				EDB8CF8627C70DB700308266 /* Frameworks */,
+				EDB8CF8727C70DB700308266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB8CF8B27C70DB700308266 /* PBXTargetDependency */,
+			);
+			name = AndroidReposUITests;
+			productName = AndroidReposUITests;
+			productReference = EDB8CF8927C70DB700308266 /* AndroidReposUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB8CF6127C70DB300308266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EDB8CF6827C70DB300308266 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EDB8CF7E27C70DB700308266 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDB8CF6827C70DB300308266;
+					};
+					EDB8CF8827C70DB700308266 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDB8CF6827C70DB300308266;
+					};
+				};
+			};
+			buildConfigurationList = EDB8CF6427C70DB300308266 /* Build configuration list for PBXProject "AndroidRepos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB8CF6027C70DB300308266;
+			productRefGroup = EDB8CF6A27C70DB300308266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB8CF6827C70DB300308266 /* AndroidRepos */,
+				EDB8CF7E27C70DB700308266 /* AndroidReposTests */,
+				EDB8CF8827C70DB700308266 /* AndroidReposUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB8CF6727C70DB300308266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8CF7927C70DB700308266 /* LaunchScreen.storyboard in Resources */,
+				EDB8CF7627C70DB700308266 /* Assets.xcassets in Resources */,
+				EDB8CF7427C70DB300308266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF7D27C70DB700308266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF8727C70DB700308266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB8CF6527C70DB300308266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8CFA927C7AB6D00308266 /* WebService.swift in Sources */,
+				EDB8CFB327C7D17C00308266 /* UIViewController+Extension.swift in Sources */,
+				EDB8CFBC27CADD6500308266 /* Storyboardable.swift in Sources */,
+				EDB8CFA527C7A78A00308266 /* Constants.swift in Sources */,
+				EDB8CFB127C7CF7700308266 /* RepositoryDetailsViewModel.swift in Sources */,
+				EDB8CFB527C7D1BE00308266 /* ActivityIndicatorView.swift in Sources */,
+				EDB8CFAD27C7ACB400308266 /* Repository.swift in Sources */,
+				EDB8CF7127C70DB300308266 /* RepositoriesViewController.swift in Sources */,
+				EDB8CFA227C7A56200308266 /* RepositoryTableViewCell.swift in Sources */,
+				EDB8CF6D27C70DB300308266 /* AppDelegate.swift in Sources */,
+				EDB8CFC027CBB15B00308266 /* UIImageView+Extension.swift in Sources */,
+				EDB8CFBE27CAEAEA00308266 /* ViewModelBased.swift in Sources */,
+				EDB8CFAF27C7C97C00308266 /* RepositoriesViewModel.swift in Sources */,
+				EDB8CFB927CA8D5800308266 /* RepositoryDetailsViewController.swift in Sources */,
+				EDB8CF6F27C70DB300308266 /* SceneDelegate.swift in Sources */,
+				EDB8CFAB27C7ABC100308266 /* WebServiceError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF7B27C70DB700308266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8CFC627CC163100308266 /* MockUrlProtocol.swift in Sources */,
+				EDB8CFC327CC0B7C00308266 /* WebServiceTests.swift in Sources */,
+				EDB8CFC827CC226B00308266 /* MockWebService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8CF8527C70DB700308266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8CF9027C70DB700308266 /* AndroidReposUITestsLaunchTests.swift in Sources */,
+				EDB8CF8E27C70DB700308266 /* AndroidReposUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB8CF8127C70DB700308266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB8CF6827C70DB300308266 /* AndroidRepos */;
+			targetProxy = EDB8CF8027C70DB700308266 /* PBXContainerItemProxy */;
+		};
+		EDB8CF8B27C70DB700308266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB8CF6827C70DB300308266 /* AndroidRepos */;
+			targetProxy = EDB8CF8A27C70DB700308266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB8CF7227C70DB300308266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB8CF7327C70DB300308266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB8CF7727C70DB700308266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB8CF7827C70DB700308266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB8CF9127C70DB700308266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB8CF9227C70DB700308266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB8CF9427C70DB700308266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndroidRepos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidRepos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDB8CF9527C70DB700308266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndroidRepos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidRepos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EDB8CF9727C70DB700308266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidReposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidRepos.app/AndroidRepos";
+			};
+			name = Debug;
+		};
+		EDB8CF9827C70DB700308266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidReposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidRepos.app/AndroidRepos";
+			};
+			name = Release;
+		};
+		EDB8CF9A27C70DB700308266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidReposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndroidRepos;
+			};
+			name = Debug;
+		};
+		EDB8CF9B27C70DB700308266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esperas.marc.AndroidReposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndroidRepos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB8CF6427C70DB300308266 /* Build configuration list for PBXProject "AndroidRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB8CF9127C70DB700308266 /* Debug */,
+				EDB8CF9227C70DB700308266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB8CF9327C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB8CF9427C70DB700308266 /* Debug */,
+				EDB8CF9527C70DB700308266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB8CF9627C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidReposTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB8CF9727C70DB700308266 /* Debug */,
+				EDB8CF9827C70DB700308266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB8CF9927C70DB700308266 /* Build configuration list for PBXNativeTarget "AndroidReposUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB8CF9A27C70DB700308266 /* Debug */,
+				EDB8CF9B27C70DB700308266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB8CF6127C70DB300308266 /* Project object */;
+}
